@@ -1,0 +1,15 @@
+.vscode
+.idea
+
+*.DS_Store
+
+*.log
+/runtime
+
+/cmd/*.sh
+/cmd/bin
+
+/vendor
+cmd/temp
+*daily*
+

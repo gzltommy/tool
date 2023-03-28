@@ -1,0 +1,30 @@
+{
+  "server": {
+    "run_mode": "debug",
+    "listen_addr": ":8080",
+    "limit_connection": 0,
+    "read_timeout": 60,
+    "write_timeout": 60,
+    "idle_timeout": 120,
+    "max_header_bytes": 1048576
+  },
+  "logger": {
+    "level": "debug",
+    "formatter": "json",
+    "disable_console": false,
+    "write": true,
+    "path": "./logs",
+    "file_name": "daily",
+    "max_age": 168,
+    "rotation_time": 24,
+    "debug": false
+  },
+  "mysql": {
+    "driver": "mysql",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "user": "root",
+    "password": "123456",
+    "db_name": "test"
+  }
+}
